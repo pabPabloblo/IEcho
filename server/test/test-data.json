@@ -1,0 +1,15 @@
+{
+    "palindromes" : [
+        "Repaper"
+    ],
+    "nonPalindromes" : [
+        "Scarecrow"
+    ],
+    "numbers" : [
+        99.7,
+        100
+    ],
+    "objects" : [
+        "{fake: object}"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "toolbox-test",
+  "version": "1.0.0",
+  "description": "[v2] Full Stack JS - Code Challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --require @babel/register",
+    "lint": "standard",
+    "fix": "standard --fix",
+    "start": "babel-node src/app.js",
+    "start-dev": "nodemon --exec babel-node src/app.js",
+    "build": "babel src --out-dir build",
+    "clean": "rimraf build"
+  },
+  "keywords": [
+    "palindrome"
+  ],
+  "standard": {
+    "env": [
+      "mocha"
+    ],
+    "ignore": [
+      "build"
+    ]
+  },
+  "author": "Pablo Bergonzi",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/runtime": "^7.12.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.8",
+    "@babel/node": "^7.12.6",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "standard": "^16.0.3",
+    "supertest": "^6.0.1"
+  }
+}

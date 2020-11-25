@@ -1,0 +1,20 @@
+
+.app-header {
+  background-color: #e00002;
+  min-height: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+
+.app {
+  background-color: #e5e5e5;
+  min-height: 38em;
+}
+
+.body {
+  min-height: 24em;
+}
